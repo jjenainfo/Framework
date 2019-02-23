@@ -1,0 +1,11 @@
+@tag
+Feature: FR Plus  page
+
+  @tag @tag1
+  Scenario: Test the Frplus login                [90m# Features/teststep.feature:23[0m
+    [32mGiven [0m[32mopen chrome[0m                            [90m# TestSteps.open_chrome()[0m
+    [32mWhen [0m[32muser enter valid user name and password[0m [90m# TestSteps.user_enter_valid_user_name_and_password()[0m
+    [32mAnd [0m[32mclick login[0m                              [90m# TestSteps.click_login()[0m
+    [32mThen [0m[32mUser should able to login[0m               [90m# TestSteps.user_should_able_to_login()[0m
+    [32mAnd [0m[32mclick on fr wallet option[0m                [90m# TestSteps.click_on_fr_wallet_option()[0m
+    [32mThen [0m[32mclose the application[0m                   [90m# TestSteps.close_the_application()[0m

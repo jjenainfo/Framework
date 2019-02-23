@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^open chrome$",
+    "steps": [
+      {
+        "name": "open chrome",
+        "aggregatedDurations": {
+          "average": 33.859845771,
+          "median": 33.859845771
+        },
+        "durations": [
+          {
+            "duration": 33.859845771,
+            "location": "Features/teststep.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter valid user name and password$",
+    "steps": [
+      {
+        "name": "user enter valid user name and password",
+        "aggregatedDurations": {
+          "average": 0.761345542,
+          "median": 0.761345542
+        },
+        "durations": [
+          {
+            "duration": 0.761345542,
+            "location": "Features/teststep.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on fr wallet option$",
+    "steps": [
+      {
+        "name": "click on fr wallet option",
+        "aggregatedDurations": {
+          "average": 0.444869275,
+          "median": 0.444869275
+        },
+        "durations": [
+          {
+            "duration": 0.444869275,
+            "location": "Features/teststep.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close the application$",
+    "steps": [
+      {
+        "name": "close the application",
+        "aggregatedDurations": {
+          "average": 0.902930823,
+          "median": 0.902930823
+        },
+        "durations": [
+          {
+            "duration": 0.902930823,
+            "location": "Features/teststep.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User should able to login$",
+    "steps": [
+      {
+        "name": "User should able to login",
+        "aggregatedDurations": {
+          "average": 0.014826157,
+          "median": 0.014826157
+        },
+        "durations": [
+          {
+            "duration": 0.014826157,
+            "location": "Features/teststep.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click login$",
+    "steps": [
+      {
+        "name": "click login",
+        "aggregatedDurations": {
+          "average": 1.465575065,
+          "median": 1.465575065
+        },
+        "durations": [
+          {
+            "duration": 1.465575065,
+            "location": "Features/teststep.feature:26"
+          }
+        ]
+      }
+    ]
+  }
+]

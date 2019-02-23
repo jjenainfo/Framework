@@ -1,0 +1,112 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Test the Frplus login",
+        "description": "",
+        "id": "fr-plus--page;test-the-frplus-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33859845771,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "open chrome",
+            "match": {
+              "location": "TestSteps.open_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 761345542,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enter valid user name and password",
+            "match": {
+              "location": "TestSteps.user_enter_valid_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1465575065,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click login",
+            "match": {
+              "location": "TestSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14826157,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should able to login",
+            "match": {
+              "location": "TestSteps.user_should_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 444869275,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on fr wallet option",
+            "match": {
+              "location": "TestSteps.click_on_fr_wallet_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 902930823,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "close the application",
+            "match": {
+              "location": "TestSteps.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "FR Plus  page",
+    "description": "",
+    "id": "fr-plus--page",
+    "keyword": "Feature",
+    "uri": "Features/teststep.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
