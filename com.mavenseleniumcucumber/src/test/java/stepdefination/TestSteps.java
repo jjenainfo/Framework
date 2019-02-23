@@ -12,13 +12,15 @@ import cucumber.api.java.en.When;
 
 public class TestSteps {
 	WebDriver driver;
-	
+	//new commit
 	 @Given("^open chrome$")
 	    public void open_chrome()  {
 		 System.setProperty("webdriver.chrome.driver",".//DRIVER//chromedriver.exe");
 		 driver= new ChromeDriver();
 		 driver.manage().window().maximize();
 		 driver.get("http://frplustest.dtdc.com/");
+		 
+		 
 	        
 	    }
 	 @When("^user enter valid user name and password$")
