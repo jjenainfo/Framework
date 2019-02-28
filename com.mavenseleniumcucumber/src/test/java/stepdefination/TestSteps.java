@@ -19,6 +19,7 @@ public class TestSteps {
 		 driver= new ChromeDriver();
 		 driver.manage().window().maximize();
 		 driver.get("http://frplustest.dtdc.com/");
+//syso
 		 
 		 
 	        
